@@ -1,3 +1,32 @@
-###TIPOS DE DATOS EN JAVA
+# TIPOS DE DATOS EN JAVA
 
-###PRIMITIVOS Y 
+## jvm JAVA virtual machinr
+
+* realice una gestion eficiente de la memoria--ram
+* distribue la memoria en dos zonas:stack (pila) y heap (monton)
+
+### stack 
+* se almacenan:
+variables locales,llamadas a metodos(parametros y resultados), variables primitivas,referencias a objetos del heap.
+
+* memoria estatica.
+
+### heap
+* es gestionado por el garbish collector(borra archivos que ya no se usan)
+* espacio de memoria en tiempo de ejecucion donde se realizan los objetos.
+* memoria dinamica 
+* no posee estructura de asignacion de espacios.
+
+### variable
+* contenedor de memoria donde se contiene informacion
+* en java se declara con un tipo que se conservara durante todo su ciclo de vida en el interior de la aplicacion
+* la variable debe tener un nombre
+* existn de tipo primitivo y referenciado 
+
+## PRIMITIVOS
+*  contenedores de tamaño especifico que almacenan velotre y no tienen metodos
+** ejemplos:bolean,char,byten
+
+## REFERENCIADOS
+* almacenan las referencias de los datos
+* estos datos se escriben una una zona de memoria llamada heap
